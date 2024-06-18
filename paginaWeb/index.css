@@ -1,0 +1,17 @@
+img{
+    height: 30px;
+    width: 30px;
+}
+.icon {
+    display: flex;
+    width: 200px;
+    height: 100px;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+  
+.icons:hover {
+    transform: translateY(-5px);
+}
+  
