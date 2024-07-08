@@ -3,27 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
-    <title>register</title>
+    <title>formulario</title>
+    <link rel="stylesheet" href="registro.css">
 </head>
 <body>
-  
-    <section>
-        <form>
-          <h2>Register</h2>
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name"><br>
-          <label for="lastname">Lastname</label>
-          <input type="text" id="lastname" name="lastname"><br>
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email"><br>
-          <label for="password"> Create Password:</label>
-          <input type="password" id="password" name="password"><br>
-          <label for="password2">Confirm Password:</label>
-          <input type="password" id="password2" name="password2"><br>
-          <input type="button" value="Register">
-        </form>
-    </section>
-
+       
+   <form>
+        <h2>Register</h2>
+        <label for="fname">First name</label>
+        <input type="text"  name="fname" placeholder="First name"><br>
+        <label for="lname">Last name</label>
+        <input type="text" name="lname" id="lname" placeholder="Last name"><br>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email"  placeholder="E-mail"><br>
+        <label for="username">User</label>
+        <input type="text" name="username" id="username"  placeholder="Username"><br>
+        <label for="password">Password</label>
+        <input type="password" name="password" id="password"  placeholder="Password"><br>
+        <div class="contenedor">
+            <button type="submit">Register</button>
+            <a href="login.html" class="enlace">
+               login
+            </a>
+        </div>
+    </form>
+    <a href=""></a>
+    
 </body>
 </html>
